@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Methods: GET, PUT, POST, OPTIONS, DELETE
+Access-Control-Allow-Origin: *
+Cache-Control: no-store, no-cache, must-revalidate
+Connection: Keep-Alive
+Content-Type: application/json; charset=UTF-8
+Date: Thu, 03 Aug 2017 09:44:08 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Keep-Alive: timeout=5, max=100
+Pragma: no-cache
+Server: Apache
+Transfer-Encoding: chunked
+
+{
+  "3ds_url": "https://secure.tpay.com/tds.php?auth=c56925a122fac98b8a0e7bf5879f3586",
+  "result": 1,
+  "test_mode": 0,
+  "sale_auth": "t59c28295aeb071b0cf6471b24f727f6456998de",
+  "cli_auth": "t59c2810d59285e3e0ee9d1f1eda1c2f4c554e24",
+  "currency": 840,
+  "amount": 10.00,
+  "date": "2017-06-28 15:31:46",
+  "status": "correct",
+  "reason": "no-reason",
+  "card": "1234****",
+  "sign": "string",
+  "err_code": null,
+  "err_desc": "account disabled"
+}

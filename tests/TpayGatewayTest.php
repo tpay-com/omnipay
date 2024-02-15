@@ -25,8 +25,6 @@ class TpayGatewayTest extends GatewayTestCase
 
     public function testPurchase()
     {
-        self::markTestSkipped('Currently failing with "Error: Call to undefined method Omnipay\Common\Http\Client::post()" error.');
-
         $purchaseOptions = [
             'amount' => '10.00',
             'card' => array_merge($this->getValidCard(), ['email' => 'customer@example.com']),
@@ -34,9 +32,9 @@ class TpayGatewayTest extends GatewayTestCase
             'description' => 'payment for order X',
         ];
 
+        $this->setMockHttpResponse('PaymentOk.txt');
         $this->options = array_merge($this->options, $purchaseOptions);
         $response = $this->gateway->purchase($this->options)->setCardSave()->send();
-
         $this->assertTrue($response->isSuccessful());
         $this->assertTrue($response->isPaid() || $response->isPending());
         $this->assertNull($response->getErrorCode());

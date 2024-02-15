@@ -2,7 +2,7 @@
 
 namespace Omnipay\Tpay\Message;
 
-use Omnipay\Tpay\_class_tpay\Notifications\CardNotificationHandler;
+use Tpay\OriginApi\Notifications\CardNotificationHandler;
 
 /**
  * Tpay Complete Purchase Request

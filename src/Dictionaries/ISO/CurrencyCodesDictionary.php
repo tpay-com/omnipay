@@ -1,6 +1,6 @@
 <?php
 
-namespace Omnipay\Tpay\Dictionaries\ISO_codes;
+namespace Omnipay\Tpay\Dictionaries\ISO;
 
 class CurrencyCodesDictionary
 {

@@ -26,7 +26,8 @@
     ],
     "homepage": "https://github.com/",
     "require": {
-        "omnipay/common": "^2.0"
+        "omnipay/common": "^2.0",
+        "tpay-com/tpay-php": "^2.4"
     },
     "require-dev": {
         "omnipay/tests": "^2.0",
