@@ -12,12 +12,7 @@ class CompletePurchaseRequest extends AbstractRequest
     public function getData()
     {
         $this->validate('amount', 'currency');
-        $tpayHandler = new CardNotificationHandler(
-            $this->getApiKey(),
-            $this->getApiPassword(),
-            $this->getVerificationCode(),
-            $this->getHashType()
-        );
+        $tpayHandler = new CardNotificationHandler();
 
         $localResources['amount'] = $this->getAmount();
         $tpayHandler->setAmount((float) $this->getAmount());
