@@ -5,8 +5,8 @@ biblioteka przetwarzania płatności dla PHP 5.3+. Ta Paczka implementuje obsłu
 Wymaga ona PHP 5.6+.
 
 [![Licencja](https://img.shields.io/github/license/tpay-com/omnipay.svg?label=licencja)](LICENSE)
-[![CI status](https://github.com/tpay-com/omnipay/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/tpay-com/omnipay-tpay/actions)
-[![Pokrycie typami](https://shepherd.dev/github/tpay-com/omnipay/coverage.svg)](https://shepherd.dev/github/tpay-com/omnipay-tpay)
+[![CI status](https://github.com/tpay-com/omnipay/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/tpay-com/omnipay/actions)
+[![Pokrycie typami](https://shepherd.dev/github/tpay-com/omnipay/coverage.svg)](https://shepherd.dev/github/tpay-com/omnipay)
 
 [English version :gb: wersja angielska](./README.md)
 
