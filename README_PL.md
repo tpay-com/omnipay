@@ -4,9 +4,9 @@
 biblioteka przetwarzania płatności dla PHP 5.3+. Ta Paczka implementuje obsługę [Tpay](https://tpay.com) dla Omnipay.
 Wymaga ona PHP 5.6+.
 
-[![Licencja](https://img.shields.io/github/license/tpay-com/omnipay-tpay.svg?label=licencja)](LICENSE)
-[![CI status](https://github.com/tpay-com/omnipay-tpay/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/tpay-com/omnipay-tpay/actions)
-[![Pokrycie typami](https://shepherd.dev/github/tpay-com/omnipay-tpay/coverage.svg)](https://shepherd.dev/github/tpay-com/omnipay-tpay)
+[![Licencja](https://img.shields.io/github/license/tpay-com/omnipay.svg?label=licencja)](LICENSE)
+[![CI status](https://github.com/tpay-com/omnipay/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/tpay-com/omnipay-tpay/actions)
+[![Pokrycie typami](https://shepherd.dev/github/tpay-com/omnipay/coverage.svg)](https://shepherd.dev/github/tpay-com/omnipay-tpay)
 
 [English version :gb: wersja angielska](./README.md)
 
@@ -15,18 +15,8 @@ Wymaga ona PHP 5.6+.
 Tpay jest instalowany przez [Composer](http://getcomposer.org/)a. Aby go zainstalować, po prostu go dodaj
 do swojego pliku `composer.json`:
 
-```json
-{
-    "require": {
-        "omnipay/tpay": "~1.0"
-    }
-}
 ```
-
-I uruchom Composera, aby zaktualizować swoje zależności:
-```console
-    curl -s https://getcomposer.org/installer | php
-    php composer.phar update
+    composer require tpay-com/omnipay:~1.0
 ```
 
 ## Podstawowe użycie
