@@ -7,7 +7,7 @@ use Omnipay\Tpay\Dictionaries\FieldsConfigDictionary;
 class BlikFieldsDictionary
 {
     /** List of fields available in response for blik payment */
-    const ALIAS_RESPONSE_FIELDS = [
+    public const ALIAS_RESPONSE_FIELDS = [
         'id' => [
             FieldsConfigDictionary::REQUIRED => true,
             FieldsConfigDictionary::TYPE => FieldsConfigDictionary::INT,
@@ -31,7 +31,7 @@ class BlikFieldsDictionary
     ];
 
     /** List of supported request fields for blik payment */
-    const REQUEST_FIELDS = [
+    public const REQUEST_FIELDS = [
         'code' => [
             FieldsConfigDictionary::REQUIRED => true,
             FieldsConfigDictionary::VALIDATION => [FieldsConfigDictionary::FLOAT, 'maxlength_6', 'minlength_6'],

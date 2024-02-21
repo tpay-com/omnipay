@@ -7,7 +7,7 @@ use Omnipay\Tpay\Dictionaries\FieldsConfigDictionary;
 class WhiteLabelFieldsDictionary
 {
     /** List of supported fields for white label payment request */
-    const REQUEST_FIELDS = [
+    public const REQUEST_FIELDS = [
         // User api login
         'api_login' => [
             FieldsConfigDictionary::REQUIRED => true,

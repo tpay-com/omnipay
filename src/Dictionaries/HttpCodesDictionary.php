@@ -5,7 +5,7 @@ namespace Omnipay\Tpay\Dictionaries;
 class HttpCodesDictionary
 {
     /** List of http response codes the occurrence of which results in throw exception */
-    const HTTP_CODES = [
+    public const HTTP_CODES = [
         401 => '401: Unauthorized access',
         404 => '404: Resource not found on server',
         500 => '500: Internal Server Error',

@@ -4,7 +4,7 @@ namespace Omnipay\Tpay\Dictionaries\ISO;
 
 class CurrencyCodesDictionary
 {
-    const CODES = [
+    public const CODES = [
         784 => 'AED',
         41 => 'AMD',
         532 => 'ANG',

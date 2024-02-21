@@ -11,7 +11,7 @@ use Omnipay\Tpay\Message\DeregisterRequest;
 use Omnipay\Tpay\Message\PurchaseRequest;
 use Omnipay\Tpay\Message\RefundRequest;
 
-class TpayGateway extends AbstractGateway implements GatewayInterface
+class Gateway extends AbstractGateway implements GatewayInterface
 {
     protected $supportedLanguages = ['pl', 'en', 'fr', 'es', 'it', 'ru'];
 

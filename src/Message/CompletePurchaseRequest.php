@@ -14,14 +14,9 @@ class CompletePurchaseRequest extends AbstractRequest
         $this->validate('amount', 'currency');
         $tpayHandler = new CardNotificationHandler();
 
-        $localResources['amount'] = $this->getAmount();
         $tpayHandler->setAmount((float) $this->getAmount());
-
-        $localResources['currency'] = $this->getCurrencyNumeric();
         $tpayHandler->setCurrency($this->getCurrencyNumeric());
-
         if (!is_null($this->getOrderId())) {
-            $localResources['order_id'] = $this->getOrderId();
             $tpayHandler->setOrderID($this->getOrderId());
         }
 
