@@ -7,7 +7,7 @@ use Omnipay\Tpay\Dictionaries\FieldsConfigDictionary;
 class CardDeregisterFieldsDictionary
 {
     /** List of fields available in card deregistration */
-    public const REQUEST_FIELDS = [
+    const REQUEST_FIELDS = [
         /*
          * client authorization ID, sent if oneTimer option is not set
          * when creating client and client has not been deregistered (himFieldsConfigDictionary or by api)
@@ -39,7 +39,7 @@ class CardDeregisterFieldsDictionary
         ],
     ];
 
-    public const RESPONSE_FIELDS = [
+    const RESPONSE_FIELDS = [
         /*
          * client authorization ID, sent if oneTimer option is not set
          * when creating client and client has not been deregistered (himFieldsConfigDictionary or by api)

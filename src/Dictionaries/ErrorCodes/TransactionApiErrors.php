@@ -4,7 +4,7 @@ namespace Omnipay\Tpay\Dictionaries\ErrorCodes;
 
 class TransactionApiErrors
 {
-    public const ERROR_CODES = [
+    const ERROR_CODES = [
         'ERR44' => 'Invalid transaction id',
         'ERR51' => 'Can\'t create transaction for this channel',
         'ERR52' => 'Error create a transaction, try again later',

@@ -4,7 +4,7 @@ namespace Omnipay\Tpay\Dictionaries\Localization;
 
 class CardPaymentLanguagesDictionary
 {
-    public const LANGUAGES = [
+    const LANGUAGES = [
         'PL' => 'pl_PL',
         'EN' => 'en_EN',
         'ES' => 'sp_SP',

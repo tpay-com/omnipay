@@ -4,7 +4,7 @@ namespace Omnipay\Tpay\Dictionaries\ISO;
 
 class CountryCodesDictionary
 {
-    public const CODES = [
+    const CODES = [
         'AF' => 'AFG',
         'AX' => 'ALA',
         'AL' => 'ALB',

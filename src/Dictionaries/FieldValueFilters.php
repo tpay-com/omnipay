@@ -4,7 +4,7 @@ namespace Omnipay\Tpay\Dictionaries;
 
 class FieldValueFilters
 {
-    public const FILTERS = [
+    const FILTERS = [
         FieldsConfigDictionary::PHONE => '/[^0-9]\+ /',
         FieldsConfigDictionary::NUMBERS => '/[^0-9]/',
         'letters' => '/[^A-Za-z]/',

@@ -7,7 +7,7 @@ use Omnipay\Tpay\Dictionaries\FieldsConfigDictionary;
 class CardFieldsDictionary
 {
     /** List of supported fields for card payment request */
-    public const REQUEST_FIELDS = [
+    const REQUEST_FIELDS = [
         // Transaction amount
         FieldsConfigDictionary::AMOUNT => [
             FieldsConfigDictionary::REQUIRED => true,
@@ -99,7 +99,7 @@ class CardFieldsDictionary
     ];
 
     /** List of fields available in card payment response */
-    public const RESPONSE_FIELDS = [
+    const RESPONSE_FIELDS = [
         // Method type
         FieldsConfigDictionary::TYPE => [
             FieldsConfigDictionary::REQUIRED => true,

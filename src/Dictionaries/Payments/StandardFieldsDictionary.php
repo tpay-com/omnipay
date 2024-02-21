@@ -7,7 +7,7 @@ use Omnipay\Tpay\Dictionaries\FieldsConfigDictionary;
 class StandardFieldsDictionary
 {
     /** List of supported request fields for basic payment */
-    public const REQUEST_FIELDS = [
+    const REQUEST_FIELDS = [
         // Transaction amount with dot as decimal separator.
         'kwota' => [
             FieldsConfigDictionary::REQUIRED => true,
@@ -220,7 +220,7 @@ class StandardFieldsDictionary
         ],
     ];
 
-    public const RESPONSE_FIELDS = [
+    const RESPONSE_FIELDS = [
         // The merchant ID assigned by the system tpay
         'id' => [
             FieldsConfigDictionary::REQUIRED => true,
