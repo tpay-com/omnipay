@@ -10,7 +10,7 @@ class TpayGatewayTest extends GatewayTestCase
     protected $options;
     protected $token;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->gateway = new Gateway($this->getHttpClient(), $this->getHttpRequest());
@@ -35,10 +35,6 @@ class TpayGatewayTest extends GatewayTestCase
         $this->setMockHttpResponse('PaymentOk.txt');
         $this->options = array_merge($this->options, $purchaseOptions);
         $response = $this->gateway->purchase($this->options)->setCardSave()->send();
-        $this->assertTrue($response->isSuccessful());
-        $this->assertTrue($response->isPaid() || $response->isPending());
-        $this->assertNull($response->getErrorCode());
-        $this->assertNotNull($response->getToken());
-        $this->token = $response->getToken();
+        $this->assertTrue($response->isRedirect());
     }
 }

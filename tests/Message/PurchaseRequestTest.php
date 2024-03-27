@@ -10,7 +10,7 @@ class PurchaseRequestTest extends TestCase
     /** @var PurchaseRequest */
     private $request;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
