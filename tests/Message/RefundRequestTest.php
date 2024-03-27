@@ -9,7 +9,7 @@ class RefundRequestTest extends TestCase
     /** @var RefundRequest */
     private $request;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
