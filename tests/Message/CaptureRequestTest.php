@@ -9,7 +9,7 @@ class CaptureRequestTest extends TestCase
     /** @var CaptureRequest */
     private $request;
 
-    public function setUp() :void
+    public function setUp(): void
     {
         parent::setUp();
 
