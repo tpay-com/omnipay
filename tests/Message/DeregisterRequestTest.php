@@ -9,7 +9,7 @@ class DeregisterRequestTest extends TestCase
     /** @var DeregisterRequest */
     private $request;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
