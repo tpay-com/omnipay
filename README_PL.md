@@ -16,7 +16,7 @@ Tpay jest instalowany przez [Composer](http://getcomposer.org/)a. Aby go zainsta
 do swojego pliku `composer.json`:
 
 ```
-    composer require tpay-com/omnipay:~1.0
+    composer require tpay-com/omnipay:~2.0
 ```
 
 ## Podstawowe użycie
