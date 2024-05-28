@@ -3,7 +3,6 @@
     "description": "Tpay gateway for Omnipay payment processing library",
     "license": "MIT",
     "type": "library",
-    "version": "v1.0.0",
     "keywords": [
         "gateway",
         "merchant",
