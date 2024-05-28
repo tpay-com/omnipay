@@ -16,7 +16,7 @@ Tpay is installed via [Composer](http://getcomposer.org/). To install, simply ad
 to your `composer.json` file:
 
 ```
-    composer require tpay-com/omnipay:~1.0
+    composer require tpay-com/omnipay:~2.0
 ```
 
 ## Basic Usage
